@@ -1,0 +1,119 @@
+.grid {
+    display: grid;
+    &.grid-2 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 1.375rem;
+        @media screen and (max-width: $tablet) {
+            grid-template-columns: 1fr;
+        }
+        &.grid--padding-right {
+            padding-right: 10%;
+            .item-left {
+                text-align: left;
+            }
+        }
+        &.grid--padding-left {
+            padding-left: 10%;
+            @media screen and (max-width: $tablet) {
+                padding-right: 10%;
+            }
+            .item-right {
+                text-align: right;
+            }
+        }
+    }
+    &.grid-2-1 {
+        grid-template-columns: 5fr 2fr;
+        grid-template-rows: auto;
+        grid-gap: 1.375rem;
+        @media screen and (max-width: $tablet) {
+            grid-template-columns: 1fr;
+        }
+    }
+    &.grid-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 1.375rem;
+        @media screen and (max-width: $tablet) {
+            grid-template-columns: 1fr;
+        }
+    }
+    &.grid-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 1.375rem;
+        @media screen and (max-width: $tablet) {
+            grid-template-columns: 1fr;
+        }
+    }
+    &.grid-no-gap { grid-gap: 0;}
+    &.grid--header {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 8rem;
+        grid-template-areas: 
+            "logo slogan marquee";
+        @media screen and (max-width: $tablet) {
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            grid-template-areas: 
+                "logo slogan"
+                "marquee marquee";
+        }
+    }
+    &.grid--services-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+            "title ."
+            "lead image"
+            "text image"
+            "list image";
+        @media screen and (max-width: $tablet) {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto auto auto auto;
+            grid-template-areas: 
+                "title"
+                "lead"
+                "list"
+                "image"
+                "image"
+                "image"
+                "text";
+        }
+    }
+}
+.grid--coaching-list-grid div {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "num title"
+        " . desc"
+    ;
+    @media screen and (max-width: $tablet) {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+            "num"
+            "title"
+            "desc"
+        ;   
+    }
+}
+.grid--packages-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    .grid-item--titles {
+        align-self: end;
+    }
+    .break {
+        flex-basis: 100%;
+        height: 0;
+    }
+    .break-column {
+        flex-basis: 100%;
+        width: 0;
+    }
+}

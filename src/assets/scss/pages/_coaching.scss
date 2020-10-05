@@ -1,0 +1,261 @@
+#coaching {
+    -webkit-moz-box-shadow:inset 0 -5rem 0 0px $grey-light;
+    -moz-box-shadow:inset 0 -5rem 0 0px $grey-light;
+    box-shadow:inset 0 -5rem 0 0px $grey-light;
+    h1.site-title {
+        @media screen and (max-width: $tablet) {
+            font-size: 2rem;
+            line-height: 122%;
+            font-weight: 600;
+            padding-bottom: 2rem;
+            padding-top: 4.25rem;
+        }
+    }
+    .grid--coaching-grid {
+        .item-left {
+            background-size: 100%;
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+        .item-right {
+            padding-right: 10vw;
+            padding-bottom: 9rem;
+            padding-left: 1.3rem;
+            font-size: 1.5rem;
+            line-height: 120%;
+            @media screen and (max-width: $tablet) {
+                padding-bottom: 0;
+                font-size: 1rem;
+            } 
+            p {
+                margin-bottom: 1.3rem;
+            }
+        }
+    }
+}
+
+#modernCoaching {
+    padding-bottom: 5.125rem;
+    @media screen and (max-width: $tablet) { padding-bottom: 2rem; }
+    h3.lead {
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 122%;
+        padding: 6.375rem 0;
+        @media screen and (max-width: $tablet) {
+            font-weight: normal;
+            font-size: 1.5rem;
+            padding: 3.5rem 0;
+        }
+    }
+    .item-left {
+        padding-top: 1rem;
+        padding-right: 9rem;
+        @media screen and (max-width: $tablet) {
+            padding-right: 0;
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 120%;
+            margin-bottom: 1.3rem;
+            @media screen and (max-width: $tablet) {
+                font-size: 1rem;
+            }
+        }
+    }
+    .grid--coaching-list-grid {
+        div {
+            margin-bottom: 2rem;
+            .list-item--num {
+                color: rgba(10, 10, 10, 0.2);
+                font-weight: 500;
+                font-size: 3.875rem;
+                line-height: 122%;
+                grid-area: num;
+            }
+            .list-item--title {
+                font-size: 1.5rem;
+                line-height: 120%;
+                grid-area: title;
+                padding-top: 1rem;
+                @media screen and (max-width: $tablet) {
+                    padding-bottom: 2rem;
+                }
+            }
+            .list-item--description {
+                font-weight: 300;
+                font-size: 1rem;
+                line-height: 1.375;
+                grid-area: desc;
+            }
+        }
+    }
+}
+#programs {
+    padding: 7.5rem 0;
+    @media screen and (max-width: $tablet) { padding: 4.6rem 0; }
+    h2 {
+        @media screen and (max-width: $tablet) { margin-bottom: 3rem; }
+    }
+    .grid-item {
+        margin-top: 5.6rem;
+        @media screen and (max-width: $tablet) { margin-top: 0; }
+        img {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            padding-bottom: 3rem;
+            font-weight: 600;
+            font-size: 2rem;
+            line-height: 122%;
+        }
+        p {
+            font-weight: 300;
+            font-size: 1rem;
+            line-height: 1.375;
+            margin-top: 1.5rem;
+        }
+    }
+    .grid-3 {
+        grid-gap: 6.375rem;
+    }
+}
+#packages {
+    padding: 8rem 0;
+    @media screen and (max-width: $tablet) { padding: 3rem 0; }
+    h2 {
+        @media screen and (max-width: $tablet) {
+            font-weight: 500;
+        }
+    }
+    .grid--packages-grid {
+        text-align: center;
+        width: 100%;
+        margin-top: 6.8rem;
+        @media screen and (max-width: $tablet) {
+            display: none;
+        }
+        .grid-item {
+            div {
+                border-bottom: 1px solid $black;
+                height: 4rem;
+                display: flex;
+                &> * {
+                    margin: auto;
+                }
+                &:first-child {
+                    border: none;
+                    margin-bottom: 2rem;
+                    display: block;
+                }
+            }
+            .package-name {
+                h3 {
+                    font-weight: 600;
+                    font-size: 2rem;
+                    line-height: 122%;
+                }
+                .price {
+                    font-size: 1rem;
+                    line-height: 1.375;
+                }
+            }
+        }
+        .grid-item--titles {
+            text-align: left;
+            p {
+                margin-left: 0 !important;
+            }
+            @media screen and (max-width: $tablet) { display: none; }
+        }
+    }
+    .packages--mobile-grid {
+        margin-top: 3rem;
+        .grid-item {
+            margin-bottom: 4.2rem;
+            h3 {
+                font-size: 1.5rem;
+                margin-bottom: 1.68rem;
+                span {
+                    font-weight: 300;
+                    font-size: 1rem;
+                }
+            }
+            ul {
+                li {
+                    font-weight: 300;
+                    font-size: 1rem;
+                    background: url("../img/bullet.png") no-repeat left;
+                    padding-left: 1rem;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
+#programsDescription {
+    padding: 6.5rem 0;
+    background: linear-gradient(-65deg, $grey-dark 40%, $grey-light 0);
+    @media screen and (max-width: $tablet) {
+        padding: 4.3rem 0 0 0;
+        background: $grey-light;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 122%;
+        margin-bottom: 4.6rem;
+    }
+    .item-left {
+        padding-right: 19rem;
+        @media screen and (max-width: $tablet) { padding-right: 0; }
+        li {
+            font-size: 1.5rem;
+            line-height: 120%;
+            margin-bottom: 2rem;
+            list-style-type: disc;
+            @media screen and (max-width: $tablet) {
+                font-weight: 300;
+                font-size: 1rem;
+                background: url("../img/bullet.png") no-repeat left;
+                padding-left: 2rem;
+                list-style-type: none;
+            }
+        }
+    }
+    .item-right {
+        color: $white;
+        font-size: 1.5rem;
+        line-height: 120%;
+        @media screen and (max-width: $tablet) { display: none; }
+        ul {
+            margin-left: 1.3rem;
+            margin-top: 2rem;
+            li {
+                font-weight: 300;
+                font-size: 1rem;
+                list-style-type: disc;
+            }
+        }
+    }
+    .mobile-only {
+        padding: 4.3rem 0;
+        h4 {
+            font-size: 1.5rem;
+            line-height: 120%;
+            font-weight: 600;
+        }
+        ul {
+            margin-top: 2rem;
+            li {
+                font-weight: 300;
+                font-size: 1rem;
+                background: url("../img/bullet.png") no-repeat left;
+                padding-left: 2rem;
+                list-style-type: none;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

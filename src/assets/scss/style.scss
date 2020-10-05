@@ -1,0 +1,151 @@
+//variables
+$red:                         #df3e3e;
+$black:                       #000;
+$white:                       #fff;
+
+$mobile:                        767px;
+$tablet:                        991px;
+$desktop:                       1440px;
+$desktop-large:                 2200px;
+
+//import basics
+@import 'reset';
+@import 'grid';
+@import 'fonts';
+//import pages and components
+@import 'components/header';
+@import 'components/footer';
+@import 'components/contact';
+
+//style
+//tags
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+::-moz-selection { background: $black; color: $white; }
+::selection { background: $black; color: $white; }
+html{ scroll-behavior: smooth; background: $black; }
+body {
+	font-size: 40px;
+    font-family: "Rubik-Regular";
+    color: $white;
+    background: $red;
+    line-height: 48px;
+    &.lock-scroll {
+        overflow: hidden;
+    }
+}
+main {
+    @media screen and (max-width: $tablet) {
+        padding-top: 4rem;
+    }
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+    &.parallax {
+        width: 100%;
+    }
+}
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+p { line-height: 1.375; font-weight: 300; }
+
+//classes
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    @media screen and (max-width: $tablet) {
+        max-width: 90%;
+    }
+}
+.btn {
+    background: $white;
+    color: $red;
+    text-transform: uppercase;
+    font-size: 75%;
+    line-height: 125%;
+    padding: 0.625rem 1.625rem !important;
+    display: inline-block;
+    -webkit-appearance: none;
+    &.btn--black { background: $black !important; }
+}
+.bg--white { background-color: $white; color: $red; }
+
+.mobile-only {
+    display: none;
+    @media screen and (max-width: $tablet) {
+        display: block;
+    }
+}
+
+.site-title {
+    padding: 6.25rem 0;
+    font-size: 3.875rem;
+    line-height: 122%;
+    font-weight: 500;
+}
+
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+//base elements
+
+h2 {
+    font-size: 3.875rem;
+    line-height: 122%;
+    font-weight: 600;
+    @media screen and (max-width: $tablet) {
+        font-size: 2rem;
+    }
+    &.lead {
+        font-family: 'ProximaNova-Semibold';
+        text-transform: uppercase;
+    }
+}
+
+h3 {
+    font-family: 'ProximaNova-Regular';
+    font-size: 1.5rem;
+    line-height: 120%;
+    @media screen and (max-width: $tablet) {
+        font-size: 1.375rem;
+        line-height: 122%;
+    }
+    &.lead {
+        font-size: 2rem;
+        line-height: 122%;
+    }
+}
+
+.scroll-wrapper {
+    position: relative;
+    margin-left: 50%;
+    width: 5rem;
+    @media screen and (max-width: $tablet) {
+        display: none;
+    }
+    small {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-left: 0.75rem;
+        font-size: 50%;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+.line--short {
+    height: 1px;
+    width: 3.6875rem;
+    background: $black;
+    margin-bottom: 1rem;
+}

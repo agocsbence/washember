@@ -1,0 +1,1 @@
+var hamburger=document.querySelector(".hamburger"),mobileMenu=document.getElementById("mobileMenu"),mobileNavbar=document.getElementById("mobileNavbar"),body=document.getElementsByTagName("BODY")[0];hamburger.addEventListener("click",function(){hamburger.classList.toggle("is-active"),mobileNavbar.classList.toggle("opened"),body.classList.toggle("lock-scroll")});

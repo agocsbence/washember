@@ -3,18 +3,12 @@ $red:                         #df3e3e;
 $black:                       #000;
 $white:                       #fff;
 
-$font-size:                     35px;
+$font-size:                     25px;
 
 $mobile:                        767px;
 $tablet:                        991px;
 $desktop:                       1440px;
 $desktop-large:                 2200px;
-
-$randomPositionX:               random(100);
-$randomPositionXValue:          $randomPositionX * 1%;
-$randomPositionY:               random(100);
-$randomPositionYValue:          $randomPositionY * 1%;
-$randomRotation:                random(10);
 
 //functions
 @function randomNum($min, $max) {
@@ -40,7 +34,7 @@ $randomRotation:                random(10);
 }
 ::-moz-selection { background: $black; color: $white; }
 ::selection { background: $black; color: $white; }
-html{ scroll-behavior: smooth; background: $black; }
+html{ scroll-behavior: smooth; background: $red; }
 body {
 	font-size: $font-size;
     font-family: "Rubik-Regular";
@@ -50,11 +44,6 @@ body {
     cursor: url('../img/cursor-sponge.png'), auto !important;
     &.lock-scroll {
         overflow: hidden;
-    }
-}
-main {
-    @media screen and (max-width: $tablet) {
-        padding-top: 4rem;
     }
 }
 a {
@@ -73,7 +62,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 p { line-height: 1.375; font-weight: 300; }
-small { font-size: 40%; }
+small { font-size: 50%; }
 
 marquee {
     img {

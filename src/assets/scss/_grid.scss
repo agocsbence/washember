@@ -35,7 +35,7 @@
     &.grid-no-gap { grid-gap: 0;}
     &.grid--header {
         grid-template-columns: auto auto auto;
-        grid-template-rows: 8rem;
+        grid-template-rows: 5rem;
         grid-template-areas: 
             "logo slogan marquee";
         @media screen and (max-width: $tablet) {

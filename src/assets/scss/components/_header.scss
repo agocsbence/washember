@@ -5,9 +5,15 @@ header {
     img, p, marquee { align-self: center; justify-self: center; }
     img {
         grid-area: logo;
+        justify-self: end;
+        padding-right: 2rem;
     }
     p {
         grid-area: slogan;
+        justify-self: start;
+    }
+    a {
+        img { padding: 0; }
     }
     marquee {
         grid-area: marquee;

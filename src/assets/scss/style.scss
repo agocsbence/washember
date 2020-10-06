@@ -3,10 +3,25 @@ $red:                         #df3e3e;
 $black:                       #000;
 $white:                       #fff;
 
+$font-size:                     35px;
+
 $mobile:                        767px;
 $tablet:                        991px;
 $desktop:                       1440px;
 $desktop-large:                 2200px;
+
+$randomPositionX:               random(100);
+$randomPositionXValue:          $randomPositionX * 1%;
+$randomPositionY:               random(100);
+$randomPositionYValue:          $randomPositionY * 1%;
+$randomRotation:                random(10);
+
+//functions
+@function randomNum($min, $max) {
+    $rand: random();
+    $randomNum: $min + floor($rand * (($max - $min) + 1));  
+    @return $randomNum;
+}
 
 //import basics
 @import 'reset';
@@ -15,7 +30,7 @@ $desktop-large:                 2200px;
 //import pages and components
 @import 'components/header';
 @import 'components/footer';
-@import 'components/contact';
+@import 'components/main';
 
 //style
 //tags
@@ -27,11 +42,12 @@ $desktop-large:                 2200px;
 ::selection { background: $black; color: $white; }
 html{ scroll-behavior: smooth; background: $black; }
 body {
-	font-size: 40px;
+	font-size: $font-size;
     font-family: "Rubik-Regular";
     color: $white;
     background: $red;
     line-height: 48px;
+    cursor: url('../img/cursor-sponge.png'), auto !important;
     &.lock-scroll {
         overflow: hidden;
     }
@@ -57,6 +73,14 @@ img {
 }
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 p { line-height: 1.375; font-weight: 300; }
+small { font-size: 40%; }
+
+marquee {
+    img {
+        height: $font-size;
+        width: auto;
+    }
+}
 
 //classes
 .container {
@@ -86,66 +110,5 @@ p { line-height: 1.375; font-weight: 300; }
     }
 }
 
-.site-title {
-    padding: 6.25rem 0;
-    font-size: 3.875rem;
-    line-height: 122%;
-    font-weight: 500;
-}
-
 .text-right {text-align: right;}
 .text-left {text-align: left;}
-
-//base elements
-
-h2 {
-    font-size: 3.875rem;
-    line-height: 122%;
-    font-weight: 600;
-    @media screen and (max-width: $tablet) {
-        font-size: 2rem;
-    }
-    &.lead {
-        font-family: 'ProximaNova-Semibold';
-        text-transform: uppercase;
-    }
-}
-
-h3 {
-    font-family: 'ProximaNova-Regular';
-    font-size: 1.5rem;
-    line-height: 120%;
-    @media screen and (max-width: $tablet) {
-        font-size: 1.375rem;
-        line-height: 122%;
-    }
-    &.lead {
-        font-size: 2rem;
-        line-height: 122%;
-    }
-}
-
-.scroll-wrapper {
-    position: relative;
-    margin-left: 50%;
-    width: 5rem;
-    @media screen and (max-width: $tablet) {
-        display: none;
-    }
-    small {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-left: 0.75rem;
-        font-size: 50%;
-        font-weight: 500;
-        text-transform: uppercase;
-    }
-}
-
-.line--short {
-    height: 1px;
-    width: 3.6875rem;
-    background: $black;
-    margin-bottom: 1rem;
-}

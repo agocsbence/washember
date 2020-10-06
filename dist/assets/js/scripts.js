@@ -1,10 +1,19 @@
-//mobile menu 
-var hamburger = document.querySelector(".hamburger");
-var mobileMenu = document.getElementById("mobileMenu");
-var mobileNavbar = document.getElementById("mobileNavbar");
-var body = document.getElementsByTagName("BODY")[0];
-hamburger.addEventListener("click", function() {
-    hamburger.classList.toggle("is-active");
-    mobileNavbar.classList.toggle('opened');
-    body.classList.toggle('lock-scroll');
-});
+//change bgImages
+const images = ["assets/img/spray.png", "assets/img/telephone.png", "assets/img/tool-1.png", "assets/img/tool-2.png", "assets/img/tool-3.png", "assets/img/tool-4.png", "assets/img/tool-5.png"],
+      random = Math.floor(Math.random() * images.length);
+
+let bgImg1 = document.getElementById('img1'),
+    bgImg2 = document.getElementById('img2');
+
+var posx = Math.floor(Math.random() * 30),
+    posy = Math.floor(Math.random() * 40);
+
+window.onload = (event) => {
+    console.log(posx);
+    console.log(posy);
+    bgImg1.src = images[random];
+    bgImg1.style.top = posy + '%';
+    bgImg1.style.left = posx + '%';
+};
+
+

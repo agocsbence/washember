@@ -11,17 +11,42 @@
 
 <header class="bg--white grid grid--header">
     <img src="assets/img/logo-desktop.png" alt="Washember">
-    <p><strong>washember</strong> | javít a szitun</p>
-    <div class="marquee">ha sürgős hívj <a href="tel:" target="_blank" rel="noopener noreferrer"><img src="assets/img/phone.png" alt="phone icon"></a> és repülünk +36 30 123 4567</div>
+    <p><strong>washember</strong> | javít a szitun |</p>
+    <marquee>ha sürgős hívj <a href="tel:" target="_blank" rel="noopener noreferrer"><img src="assets/img/phone.png" alt="phone icon"></a> és repülünk <a href="tel:+36301234567">+36 30 123 4567</a></marquee>
 </header>
-<main>
-    <section id="content"></section>
-    <section id="form"></section>
-    <section id="contact"></section>
+<main class="grid grid--main">
+    <section id="content">
+        <div id="bgImages">
+            <img src="assets/img/spray.png" alt="" id="img1">
+        </div>
+        <div class="text">
+            <p>Velünk jobb lesz!</p>
+            <p>Ha elakadtál otthon, irodában, üzletben valami javításban, valami <u>elromlott, leromlott, koszos lett, kiömlött,</u> vagy <u>eldugult, leszakadt, szétesett,</u> keress minket, megnézzük, mit tehetünk.</p>
+            <p>Nagy valószínűséggel meg tudjuk javítani, fel tudjuk újítani, ki tudjuk tisztítani, tudunk segíteni!</p>
+        </div>
+    </section>
+    <section id="form">
+        <h2>Írj, miben segíthetünk</h2>
+        <form action="">
+            <input type="text" placeholder="Név">
+            <input type="email" placeholder="Email cím">
+            <textarea name="message" id="message" cols="15" rows="10" placeholder="Üzenet"></textarea>
+            <input type="submit" value="Küldés">
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Ha sürgős, <u>hívj</u>, és <u>repülünk</u></h2>
+        <h2><a href="tel:+36201234567">+36 20 999 6686</a></h2>
+        <div class="copyright">
+            <p><small>Oldalunk óriási fejlesztés előtt áll.</small></p>
+            <p><small>2020 &copy; Golem Holding</small></p>
+        </div>
+    </section>
 </main>
-<footer class="bg--white">
-    <div class="marquee">#TAKARÍTÁS #TISZTÍTÁS #KARBANTARTÁS #KERTÉSZET <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><img src="assets/img/facebook.png" alt="facebook"></a></div>
+<footer class="bg--white grid">
+    <marquee direction="right" vspace="10">#TAKARÍTÁS #TISZTÍTÁS #KARBANTARTÁS #KERTÉSZET <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><img src="assets/img/facebook.png" alt="facebook"></a> #TAKARÍTÁS #TISZTÍTÁS #KARBANTARTÁS #KERTÉSZET</marquee>
 </footer>
     
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>

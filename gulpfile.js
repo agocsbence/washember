@@ -75,7 +75,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('wordpress', gulp.series('copyWPimage', 'copyWPstyle'));
-gulp.task('default', gulp.series('imagemin', 'copyHTML', 'copyCSS', 'copyPHP', 'scripts', 'styles', 'watch'));
+gulp.task('default', gulp.series('imagemin', 'fonts', 'copyHTML', 'copyCSS', 'copyPHP', 'scripts', 'styles', 'watch'));
 
 // gulp.task('srcset', function(){
 //   return gulp.src('./src/assets/img/belga.png}')

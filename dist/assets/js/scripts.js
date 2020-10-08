@@ -8,11 +8,11 @@ const images = ["assets/img/spray.png", "assets/img/telephone.png", "assets/img/
 // var posx = Math.floor(Math.random() * 30),
 //     posy = Math.floor(Math.random() * 40);
 
-window.onload = (event) => {
-    bgImg1.src = images[random];
-    bgImg2.src = images[random];
-    // bgImg1.style.top = posy + '%';
-    // bgImg1.style.left = posx + '%';
-};
+// window.onload = (event) => {
+//     bgImg1.src = images[random];
+//     bgImg2.src = images[random];
+//     bgImg1.style.top = posy + '%';
+//     bgImg1.style.left = posx + '%';
+// };
 
 

@@ -22,6 +22,7 @@ $desktop-large:                 2200px;
 @import 'grid';
 @import 'fonts';
 //import pages and components
+@import 'components/keyframes';
 @import 'components/header';
 @import 'components/footer';
 @import 'components/main';
@@ -78,6 +79,11 @@ marquee {
     @media screen and (max-width: $tablet) {
         max-width: 90%;
     }
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 .btn {
     background: $white;

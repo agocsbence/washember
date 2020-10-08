@@ -1,1 +1,1 @@
-const images=["assets/img/spray.png","assets/img/telephone.png","assets/img/tool-1.png","assets/img/tool-2.png","assets/img/tool-3.png","assets/img/tool-4.png","assets/img/tool-5.png"],random=Math.floor(Math.random()*images.length);window.onload=(s=>{bgImg1.src=images[random],bgImg2.src=images[random]});
+const images=["assets/img/spray.png","assets/img/telephone.png","assets/img/tool-1.png","assets/img/tool-2.png","assets/img/tool-3.png","assets/img/tool-4.png","assets/img/tool-5.png"],random=Math.floor(Math.random()*images.length);

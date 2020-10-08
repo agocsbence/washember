@@ -5,5 +5,20 @@ footer {
     width: 100%;
     font-size: 75%;
     font-weight: 700;
-    img, p, marquee { align-self: center; }
+    img, p, .marquee { align-self: center; }
+    .marquee {
+        grid-area: marquee;
+        justify-self: stretch;
+        width: 106%;
+        margin-left: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-align: right;
+        // border: 1px solid black;
+        div {display: inline-block;}
+        img {height: $font-size; width: auto;}
+        .marquee1 {animation: marquee-lefts 15s linear infinite; transform: translateX(100%);}
+        .marquee2 {animation: marquee2-lefts 15s linear infinite; animation-delay: 5s; transform: translateX(201%);}
+        .marquee3 {animation: marquee3-lefts 15s linear infinite; animation-delay: 10s; transform: translateX(302%);}
+    }
 }

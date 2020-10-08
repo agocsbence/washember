@@ -2,21 +2,31 @@ header {
     text-transform: uppercase;
     padding: .6rem;
     padding-right: 0;
-    img, p, marquee { align-self: center; justify-self: center; }
-    img {
+    img, p, .marquee { align-self: center; justify-self: center; }
+    img.logo {
         grid-area: logo;
-        justify-self: end;
+        justify-self: start;
         padding-right: 2rem;
+        padding-left: 1.65rem;
     }
     p {
         grid-area: slogan;
         justify-self: start;
     }
     a {
-        img { padding: 0; }
+        img { padding: 0; height: $font-size; width: auto; }
     }
-    marquee {
+    .marquee {
         grid-area: marquee;
         justify-self: stretch;
+        width: 106%;
+        margin-left: 1%;
+        overflow: hidden;
+        white-space: nowrap;
+        // border: 1px solid black;
+        div {display: inline-block;}
+        .marquee1 {animation: marquee 15s linear infinite;}
+        .marquee2 {animation: marquee2 15s linear infinite; animation-delay: 5s; transform: translateX(-201%);}
+        .marquee3 {animation: marquee3 15s linear infinite; animation-delay: 10s; transform: translateX(-302%);}
     }
 }

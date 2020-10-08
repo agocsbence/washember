@@ -1,0 +1,62 @@
+@keyframes marquee {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(210%);
+    }
+}
+
+@keyframes marquee2 {
+    from {
+        transform: translateX(-201%);
+    }
+    to {
+        transform: translateX(110%);
+    }
+}
+
+@keyframes marquee3 {
+    from {
+        transform: translateX(-302%);
+    }
+    to {
+        transform: translateX(10%);
+    }
+}
+
+@keyframes marquee4 {
+    from {
+        transform: translateX(-402%);
+    }
+    to {
+        transform: translateX(-90%);
+    }
+}
+
+@keyframes marquee-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-210%);
+    }
+}
+
+@keyframes marquee2-left {
+    from {
+        transform: translateX(201%);
+    }
+    to {
+        transform: translateX(-110%);
+    }
+}
+
+@keyframes marquee3-left {
+    from {
+        transform: translateX(302%);
+    }
+    to {
+        transform: translateX(-10%);
+    }
+}

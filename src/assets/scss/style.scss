@@ -4,7 +4,7 @@ $black:                       #000;
 $white:                       #fff;
 
 $font-size:                     25px;
-$font-size-mobile:              15px;
+$font-size-mobile:              23px;
 
 $mobile:                        767px;
 $tablet:                        991px;
@@ -111,6 +111,12 @@ marquee {
     display: none;
     @media screen and (max-width: $tablet) {
         display: block;
+    }
+}
+.desktop-only {
+    display: block;
+    @media screen and (max-width: $tablet) {
+        display: none;
     }
 }
 

@@ -1,20 +1,40 @@
 header {
     text-transform: uppercase;
     padding: .6rem;
-    padding-right: 0;
+    @media screen and (max-width: $tablet) {
+        padding: 0;
+        padding-top: 1rem;
+    }
+    @media screen and (min-width: $tablet) {
+        padding-right: 0;
+    }
     img, p, .marquee-header { align-self: center; justify-self: center; }
-    img.logo {
+    img.logo,
+    img.logo-mobile {
         grid-area: logo;
         justify-self: start;
         padding-right: 2rem;
         padding-left: 1.65rem;
+    }
+    img.logo-mobile {
+        padding: 0;
+        border-right: 2px solid $red;
+        padding-left: 1rem;
+        padding-right: 2rem;
     }
     p {
         grid-area: slogan;
         justify-self: start;
     }
     a {
-        img { padding: 0; height: $font-size; width: auto; }
+        img {
+            padding: 0;
+            height: $font-size;
+            width: auto;
+            @media screen and (max-width: $tablet) {
+                height: $font-size-mobile;
+            }
+        }
     }
     .marquee-header {
         grid-area: marquee;
@@ -23,10 +43,14 @@ header {
         margin-left: 1%;
         overflow: hidden;
         white-space: nowrap;
+        @media screen and (max-width: $tablet) {
+            width: 100%;
+            margin-left: 0;
+        }
         // border: 1px solid black;
         div {display: inline-block;}
         .marquee1 {animation: marquee 15s linear infinite;}
-        .marquee2 {animation: marquee2 15s linear infinite; animation-delay: 5s; transform: translateX(-201%);}
-        .marquee3 {animation: marquee3 15s linear infinite; animation-delay: 10s; transform: translateX(-302%);}
+        .marquee2 {animation: marquee2 15s linear infinite; animation-delay: 5s; transform: translateX(-211%);}
+        .marquee3 {animation: marquee3 15s linear infinite; animation-delay: 10s; transform: translateX(-312%);}
     }
 }

@@ -2,7 +2,7 @@ header {
     text-transform: uppercase;
     padding: .6rem;
     padding-right: 0;
-    img, p, .marquee { align-self: center; justify-self: center; }
+    img, p, .marquee-header { align-self: center; justify-self: center; }
     img.logo {
         grid-area: logo;
         justify-self: start;
@@ -16,7 +16,7 @@ header {
     a {
         img { padding: 0; height: $font-size; width: auto; }
     }
-    .marquee {
+    .marquee-header {
         grid-area: marquee;
         justify-self: stretch;
         width: 106%;

@@ -36,27 +36,27 @@
 
 @keyframes marquee-left {
     from {
-        transform: translateX(100%);
+        transform: translateX(300%);
     }
     to {
-        transform: translateX(-210%);
+        transform: translateX(-154%);
     }
 }
 
 @keyframes marquee2-left {
     from {
-        transform: translateX(201%);
+        transform: translateX(180%);
     }
     to {
-        transform: translateX(-110%);
+        transform: translateX(-274%);
     }
 }
 
 @keyframes marquee3-left {
     from {
-        transform: translateX(302%);
+        transform: translateX(60%);
     }
     to {
-        transform: translateX(-10%);
+        transform: translateX(-394%);
     }
 }

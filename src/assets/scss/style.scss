@@ -42,6 +42,9 @@ body {
     color: $white;
     background: $red;
     line-height: 48px;
+    max-width: 100vw;
+    position: relative;
+    overflow: hidden;
     cursor: url('../img/cursor-sponge.png'), auto !important;
     &.lock-scroll {
         overflow: hidden;

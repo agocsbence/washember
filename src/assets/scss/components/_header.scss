@@ -25,6 +25,14 @@ header {
     p {
         grid-area: slogan;
         justify-self: start;
+        @media screen and (max-width: $tablet) {
+            strong { display: block; }
+        }
+        @media screen and (min-width: $tablet) {
+            span {
+                display: inline-block !important;
+            }
+        }
     }
     a {
         img {

@@ -1,6 +1,6 @@
 main {
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
     @media screen and (max-width: $tablet) {
         margin-bottom: 5rem;
     }

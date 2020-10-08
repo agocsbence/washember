@@ -39,7 +39,7 @@ $desktop-large:                 2200px;
 html{ scroll-behavior: smooth; background: $red; }
 body {
 	font-size: $font-size;
-    font-family: "Rubik-Regular";
+    font-family: "RubikRegular";
     color: $white;
     background: $red;
     line-height: 48px;
@@ -70,10 +70,10 @@ img {
         width: 100%;
     }
 }
-h1, h2, h3, h4, h5, h6 { font-weight: normal; }
-p { line-height: 1.375; font-weight: 300; }
+h1, h2, h3, h4, h5, h6 { font-weight: 600; }
+p { line-height: 1.375; font-weight: 600; }
 small { font-size: 50%; }
-
+strong {font-weight: 900; font-family: "RubikBold";}
 marquee {
     img {
         height: $font-size;

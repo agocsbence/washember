@@ -64,11 +64,11 @@ main {
                     font-size: $font-size;
                     background: transparent;
                     color: $white;
-                    font-family: "Rubik-Regular";
+                    font-family: "RubikRegular";
                     &::placeholder {
                         text-decoration: underline;
                         color: $white;
-                        font-family: "Rubik-Regular";
+                        font-family: "RubikRegular";
                     }
                     &[type="submit"] {
                         display: inline-block;

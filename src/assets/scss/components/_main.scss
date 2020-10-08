@@ -49,8 +49,13 @@ main {
             // }
         }
         &#form {
+            @media screen  and (max-width: $tablet) {
+                background: $red;
+            }
+            p {
+                margin-bottom: 1.4rem;
+            }
             form {
-                margin-top: 2rem;
                 input, textarea {
                     width: 100%;
                     margin: 0;
@@ -80,8 +85,8 @@ main {
         }
         &#contact {
             position: relative;
-            @media screen  and (max-width: $tablet) {
-
+            @media screen  and (min-width: $tablet) {
+                min-height: 60vh;
             }
             .copyright {
                 position: absolute;

@@ -4,6 +4,7 @@ $black:                       #000;
 $white:                       #fff;
 
 $font-size:                     25px;
+$font-size-mobile:              15px;
 
 $mobile:                        767px;
 $tablet:                        991px;
@@ -46,6 +47,9 @@ body {
     position: relative;
     overflow: hidden;
     cursor: url('../img/cursor-sponge.png'), auto !important;
+    @media screen and (max-width: $tablet) {
+        font-size: $font-size-mobile;
+    }
     &.lock-scroll {
         overflow: hidden;
     }

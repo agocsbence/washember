@@ -78,6 +78,9 @@ main {
                         text-transform: uppercase;
                         padding: .6rem 1rem;
                         font-weight: bold;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
                     }
                 }
                 textarea { height: 10rem; overflow-y: scroll; }

@@ -22,10 +22,9 @@ if( function_exists('acf_add_options_page') ) {
 add_action( 'admin_init', 'my_remove_menu_pages' );
 function my_remove_menu_pages() {
 
-
   global $user_ID;
 
-  if ( $user_ID != 99 ) { //your user id
+  if ( $user_ID != 1 ) { //your user id
 
    remove_menu_page('edit.php'); // Posts
    remove_menu_page('upload.php'); // Media

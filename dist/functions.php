@@ -39,5 +39,7 @@ function my_remove_menu_pages() {
    remove_menu_page('options-general.php'); // Settings
    remove_menu_page('edit.php'); // Posts
    remove_menu_page('upload.php'); // Media
+   remove_menu_page('edit.php?post_type=acf-field-group'); // ACF Fields
+   remove_menu_page('admin.php?page=wpcf7'); // CF7
   }
 }

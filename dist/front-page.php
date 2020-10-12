@@ -25,16 +25,17 @@ get_header();
     </section>
     <section id="form">
         <p>Írj, miben segíthetünk</p>
-        <form action="">
+        <!-- <form action="">
             <input type="text" placeholder="Név">
             <input type="email" placeholder="Email cím">
             <textarea name="message" id="message" cols="15" rows="10" placeholder="Üzenet"></textarea>
             <input type="submit" value="Küldés">
-        </form>
+        </form> -->
+        <?php echo do_shortcode('[contact-form-7 id="11" title="Üzenet"]'); ?>
     </section>
     <section id="contact">
         <p>Ha sürgős, <u>hívj</u>, és <u>repülünk</u></p>
-        <p><a href="tel:+36201234567">+36 20 999 6686</a></p>
+        <p><a href="tel:<?php the_field('telefonszam', 'option'); ?>"><?php the_field('telefonszam', 'option'); ?></a></p>
         <div class="copyright">
             <p><small>Oldalunk óriási fejlesztés előtt áll.</small></p>
             <p><small>2020 &copy; Golem Holding</small></p>

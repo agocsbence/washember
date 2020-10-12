@@ -19,7 +19,7 @@ if( function_exists('acf_add_options_page') ) {
 }
 
 /* remove admin menu items based on user ID */
-// add_action( 'admin_init', 'my_remove_menu_pages' );
+add_action( 'admin_init', 'my_remove_menu_pages' );
 function my_remove_menu_pages() {
 
   global $user_ID;

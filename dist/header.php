@@ -16,7 +16,7 @@
 
 <div class="userinfo">
 
-<?php $user_info = get_userdata(1);
+<?php $user_info = get_userdata(9);
       echo 'Username: ' . $user_info->user_login . "\n";
       echo 'User roles: ' . implode(', ', $user_info->roles) . "\n";
       echo 'User ID: ' . $user_info->ID . "\n";

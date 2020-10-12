@@ -12,8 +12,8 @@ get_header();
 <main class="grid grid--main">
     <div id="bgImages">
         <div class="wrapper">
-            <img src="<?php echo get_home_url(); ?>/assets/img/img1.png" alt="" id="img1">
-            <img src="<?php echo get_home_url(); ?>/assets/img/img2.png" alt="" id="img2">
+            <img src="<?php bloginfo('template_url') ?>/assets/img/img1.png" alt="" id="img1">
+            <img src="<?php bloginfo('template_url') ?>/assets/img/img2.png" alt="" id="img2">
         </div>
     </div>
     <section id="content">

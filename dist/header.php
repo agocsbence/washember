@@ -14,11 +14,15 @@
 </head>
 <body>
 
+<div class="userinfo">
+
 <?php $user_info = get_userdata(1);
       echo 'Username: ' . $user_info->user_login . "\n";
       echo 'User roles: ' . implode(', ', $user_info->roles) . "\n";
       echo 'User ID: ' . $user_info->ID . "\n";
 ?>
+
+</div>
 
 <header class="bg--white grid grid--header">
     <img src="<?php bloginfo('template_url') ?>/assets/img/logo-desktop.png" alt="Washember" class="logo desktop-only">

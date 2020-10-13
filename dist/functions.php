@@ -52,7 +52,6 @@ function harom_login_logo() { ?>
 			width:320px;
 			background-size: 320px 65px;
 			background-repeat: no-repeat;
-        	padding-bottom: 30px;
         }
     </style>
 <?php }

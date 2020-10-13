@@ -1,4 +1,4 @@
 body.login {background: #df3e3e; color: #fff;}
 body.login div#login .message {color: #df3e3e; border-left: 4px solid #000;}
-body.login div#login form#loginform {background: transparent; border: 2px solid #fff; box-shadow: none;}
-body.login div#login form#loginform p.submit input#wp-submit {background: #fff; border-color: #df3e3e; color: #df3e3e;}
+body.login div#login form#loginform, body.login div#login form#resetpassform {background: transparent; border: 2px solid #fff; box-shadow: none;}
+body.login div#login form#loginform p.submit input#wp-submit, body.login div#login form#resetpassform p.submit input#wp-submit {background: #fff; border-color: #df3e3e; color: #df3e3e;}

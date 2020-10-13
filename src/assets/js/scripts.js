@@ -15,3 +15,8 @@ console.log(content.clientHeight);
 function setImageSize() {
     bgImg1.style.maxHeight = (content.clientHeight * 0.9) + "px";
 }
+
+/* listen for email sending */
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    console.log('Mail sent!');
+}, false );

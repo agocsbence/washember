@@ -1,17 +1,12 @@
-//change bgImages
-const images = ["assets/img/spray.png", "assets/img/telephone.png", "assets/img/tool-1.png", "assets/img/tool-2.png", "assets/img/tool-3.png", "assets/img/tool-4.png", "assets/img/tool-5.png"],
-      random = Math.floor(Math.random() * images.length);
-
 let bgImg1 = document.getElementById('img1'),
-    content = document.getElementById('content');
+    content = document.getElementById('content'),
+    form = document.getElementById('wpcf7-f11-o1'),
+    thankYou = document.getElementById('thankyou'),
+    thankYouBtn = document.getElementById('tyButton');
 
+/* watch image size of img1 */
 window.addEventListener('load', setImageSize);
 window.addEventListener('resize', setImageSize);
-
-console.log(bgImg1);
-console.log(content);
-console.log(content.clientHeight);
-
 function setImageSize() {
     bgImg1.style.maxHeight = (content.clientHeight * 0.9) + "px";
 }
@@ -19,4 +14,13 @@ function setImageSize() {
 /* listen for email sending */
 document.addEventListener( 'wpcf7mailsent', function( event ) {
     console.log('Mail sent!');
+    form.style.display = "none";
+    thankYou.style.display = "block";
 }, false );
+
+tyButton.addEventListener('click', showForm);
+
+function showForm() {
+    form.style.display = "block";
+    thankYou.style.display = "none";
+}

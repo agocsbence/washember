@@ -18,19 +18,16 @@ get_header();
     </div>
     <section id="content">
         <div class="text">
-            <p>Velünk jobb lesz!</p>
             <p>Ha elakadtál otthon, irodában, üzletben valami javításban, valami <u>elromlott, leromlott, koszos lett, kiömlött,</u> vagy <u>eldugult, leszakadt, szétesett,</u> keress minket, megnézzük, mit tehetünk.</p>
             <p>Nagy valószínűséggel meg tudjuk javítani, fel tudjuk újítani, ki tudjuk tisztítani, tudunk segíteni!</p>
         </div>
     </section>
     <section id="form">
         <p>Írj, miben segíthetünk</p>
-        <!-- <form action="">
-            <input type="text" placeholder="Név">
-            <input type="email" placeholder="Email cím">
-            <textarea name="message" id="message" cols="15" rows="10" placeholder="Üzenet"></textarea>
-            <input type="submit" value="Küldés">
-        </form> -->
+        <div id="thankyou">
+            <p>Köszönjük az üzenetet, hamarosan jelentkezünk!</p>
+            <div class="button" id="tyButton">Újat írok</div>
+        </div>
         <?php echo do_shortcode('[contact-form-7 id="11" title="Üzenet"]'); ?>
     </section>
     <section id="contact">

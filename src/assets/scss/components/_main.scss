@@ -56,6 +56,20 @@ main {
             p {
                 margin-bottom: 1.4rem;
             }
+            #thankyou {
+                display: none;
+                .button {
+                    display: inline-block;
+                    width: auto;
+                    background: $white;
+                    color: $red;
+                    text-transform: uppercase;
+                    padding: .6rem 1rem;
+                    font-weight: 700;
+                    margin-top: 5rem;
+                    cursor: pointer;
+                }
+            }
             form {
                 input, textarea {
                     width: 100%;

@@ -42,3 +42,23 @@ function my_remove_menu_pages() {
    remove_menu_page('admin.php?page=wpcf7'); // CF7
   }
 }
+
+/* custom login page */
+function harom_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+            background-image: url(<?php bloginfo('template_url') ?>/assets/img/logo-login.png);
+			height:65px;
+			width:320px;
+			background-size: 320px 65px;
+			background-repeat: no-repeat;
+        	padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'harom_login_logo' );
+
+function harom_login_stylesheet() {
+    wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/custom-login.css' );
+}
+add_action( 'login_enqueue_scripts', 'harom_login_stylesheet' );

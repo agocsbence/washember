@@ -58,8 +58,22 @@ header {
         }
         // border: 1px solid black;
         div {display: inline-block;}
-        .marquee1 {animation: marquee 15s linear infinite;}
-        .marquee2 {animation: marquee2 15s linear infinite; animation-delay: 5s; transform: translateX(-211%);}
-        .marquee3 {animation: marquee3 15s linear infinite; animation-delay: 10s; transform: translateX(-312%);}
+        .marquee1 {animation: marquee 15s linear infinite;
+            @media screen and (max-width: $tablet) {
+                animation: marquee 15s linear infinite;
+            }
+        }
+        .marquee2 {animation: marquee2 15s linear infinite; animation-delay: 5s; transform: translateX(-201%);
+            @media screen and (max-width: $tablet) {
+                animation: marquee2-mobile 15s linear infinite;
+                transform: translateX(-211%);
+                animation-delay: 6s;
+            }
+        }
+        .marquee3 {animation: marquee3 15s linear infinite; animation-delay: 10s; transform: translateX(-302%);
+            @media screen and (max-width: $tablet) {
+                display: none;
+            }
+        }
     }
 }

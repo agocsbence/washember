@@ -16,6 +16,15 @@
     }
 }
 
+@keyframes marquee2-mobile {
+    from {
+        transform: translateX(-211%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+
 @keyframes marquee3 {
     from {
         transform: translateX(-302%);

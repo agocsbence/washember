@@ -10,6 +10,8 @@ window.addEventListener('load', setImageSize);
 function setImageSize() {
     if(window.innerWidth < 768 && window.innerHeight < window.innerWidth){
         console.log('mobile and landscape');
+    } else if(window.innerWidth < 768) {
+        console.log('mobile');
     } else {
         console.log('resize images');
         bgImg1.style.maxHeight = (content.clientHeight * 0.9) + "px";

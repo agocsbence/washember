@@ -8,7 +8,7 @@ let bgImg1 = document.getElementById('img1'),
 window.addEventListener('resize', setImageSize);
 window.addEventListener('load', setImageSize);
 function setImageSize() {
-    if(window.innerWidth < 800 && window.innerHeight < window.innerWidth){
+    if(window.innerWidth < 768 && window.innerHeight < window.innerWidth){
         console.log('mobile and landscape');
     } else {
         console.log('resize images');

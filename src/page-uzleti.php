@@ -18,29 +18,29 @@ get_header();
     </div>
     <section id="content">
         <div class="text">
-            <p>Ha elakadtál otthon, irodában, üzletben valami javításban, valami <u>elromlott, leromlott, koszos lett, kiömlött,</u> vagy <u>eldugult, leszakadt, szétesett,</u> keress minket, megnézzük, mit tehetünk.</p>
-            <p>Nagy valószínűséggel meg tudjuk javítani, fel tudjuk újítani, ki tudjuk tisztítani, tudunk segíteni!</p>
-            Üzletek, éttermek, irodák, társasházak számára nyugodt, költséghatékony és tervezhető jövőt kínálunk, amennyiben hozzáértő, számlaképes és az elvégzett munkákra garanciát vállaló csapatunkkal dolgoznak együtt.
-
-            Önök is tapasztalhatják, hogy jelenleg Budapesten szakember hiány van. Egyes területeken heteket, akár hónapokat is várni kell minőségi szolgáltatást nyújtó és megfelelően árazott szakemberre. Kisebb karbantartási munkákra egyre
-            nehezebb gyors segítséget kapni, generál kivitelezési és épület-gépészeti munkáknál akár több hónapos várakozásra is
-            fel kell készülni.
-            Cégünk, a Washember és társa kft. professzionálisan képzett és irányított csapatával megoldást jelent Önöknek akár
-            eseti, prioritást igénylő feladatok elvégzése, akár hosszabb távú, szerződéses keretek között történő együttműködés
-            esetén.
-            Kompetenciáink, kollégáink:
-            Tisztítás-technológiai és takarítási munkák, legyen szó akár lépcsőház takarításról, padlástér veszélyes hulladék
-            kezeléséről, vagy fertőtlenítő takarításról.
-            Karbantartó kollégáink hozzáértéssel és több év tapasztalattal felszerelkezve oldanak meg hétköznapi problémákat,
-            meghibásodásokat.
-            Ipari alpinos kollégáink rövid határidővel elérhetőek ereszcsatorna tisztításra, homlokzati veszélymentesítésre,
-            cserépigazításra, régi antennák leszerelésére, és galamb-mentesítésre is.
-            A takarítási szolgáltatás mellett kertrendezést, kertészeti munkákat is vállalunk.
-            Partnercégeink bevonásával akár épület-gépészeti, villamossági és generál kivitelezési projektekben is
-            segítségükre lehetünk.
-            Hosszabb távú szerződéses keretek között történő együttműködés esetén jelentős árkedvezményt tudunk
-            biztosítani ügyfeleink részére.
-            Hívja a Washembert! Megbízható - Gyors - Precíz! Válassza Ön is a hosszútávú biztonságot!
+            <div class="overflow-scroll">
+                <p><u>Üzletek, éttermek, irodák, társasházak</u> számára nyugodt, költséghatékony és tervezhető jövőt kínálunk, amennyiben hozzáértő, számlaképes és az elvégzett munkákra garanciát vállaló csapatunkkal dolgoznak együtt.</p>
+                <p>Önök is tapasztalhatják, hogy jelenleg Budapesten szakember hiány van. Egyes területeken heteket, akár hónapokat is várni kell minőségi szolgáltatást nyújtó és megfelelően árazott szakemberre. Kisebb karbantartási munkákra egyre
+                nehezebb gyors segítséget kapni, generál kivitelezési és épület-gépészeti munkáknál akár több hónapos várakozásra is
+                fel kell készülni.</p>
+                
+                <p>Cégünk, a Washember és társa kft. professzionálisan képzett és irányított csapatával megoldást jelent Önöknek akár
+                eseti, prioritást igénylő feladatok elvégzése, akár hosszabb távú, szerződéses keretek között történő együttműködés
+                esetén.</p>
+                <p>Kompetenciáink, kollégáink:</p>
+                <p>Tisztítás-technológiai és takarítási munkák, legyen szó akár lépcsőház takarításról, padlástér veszélyes hulladék
+                kezeléséről, vagy fertőtlenítő takarításról.</p>
+                <p>Karbantartó kollégáink hozzáértéssel és több év tapasztalattal felszerelkezve oldanak meg hétköznapi problémákat,
+                meghibásodásokat.</p>
+                <p>Ipari alpinos kollégáink rövid határidővel elérhetőek ereszcsatorna tisztításra, homlokzati veszélymentesítésre,
+                cserépigazításra, régi antennák leszerelésére, és galamb-mentesítésre is.</p>
+                <p>A takarítási szolgáltatás mellett kertrendezést, kertészeti munkákat is vállalunk.</p>
+                <p>Partnercégeink bevonásával akár épület-gépészeti, villamossági és generál kivitelezési projektekben is
+                segítségükre lehetünk.</p>
+                <p>Hosszabb távú szerződéses keretek között történő együttműködés esetén jelentős árkedvezményt tudunk
+                biztosítani ügyfeleink részére.</p>
+                <p>Hívja a Washembert! Megbízható - Gyors - Precíz! Válassza Ön is a hosszútávú biztonságot!</p>
+            </div>
             <p class="policy"><small><a href="http://newsite.washember.hu/wp-content/uploads/2021/04/WE-web-discl-B2B-3.pdf" target="blank">Adatvédelmi tájékoztató</a></small></p>
         </div>
     </section>

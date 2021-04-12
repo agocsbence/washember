@@ -38,3 +38,14 @@ function showForm() {
     form.style.display = "block";
     thankYou.style.display = "none";
 }
+
+function policyCheck() {
+    var submitBtn = document.getElementById("submitBtn");
+    var policyCheck = document.getElementById("policyCheck");
+    if (policyCheck.checked) {
+        submitBtn.disabled = false;
+    } else {
+        submitBtn.disabled = true;
+    }
+}
+policyCheck();

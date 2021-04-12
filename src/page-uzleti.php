@@ -41,7 +41,7 @@ get_header();
             Hosszabb távú szerződéses keretek között történő együttműködés esetén jelentős árkedvezményt tudunk
             biztosítani ügyfeleink részére.
             Hívja a Washembert! Megbízható - Gyors - Precíz! Válassza Ön is a hosszútávú biztonságot!
-            <p><small><a href="http://newsite.washember.hu/wp-content/uploads/2021/04/WE-web-discl-B2B-3.pdf" target="blank">Adatvédelmi tájékoztató</a></small></p>
+            <p class="policy"><small><a href="http://newsite.washember.hu/wp-content/uploads/2021/04/WE-web-discl-B2B-3.pdf" target="blank">Adatvédelmi tájékoztató</a></small></p>
         </div>
     </section>
     <section id="form">

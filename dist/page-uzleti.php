@@ -18,7 +18,7 @@ get_header();
     </div>
     <section id="content">
         <div class="text">
-            <div class="overflow-scroll">
+            <div class="overflow-scroll" style="max-height: 600px;">
                 <p><u>Üzletek, éttermek, irodák, társasházak</u> számára nyugodt, költséghatékony és tervezhető jövőt kínálunk, amennyiben hozzáértő, számlaképes és az elvégzett munkákra garanciát vállaló csapatunkkal dolgoznak együtt.</p>
                 <p>Önök is tapasztalhatják, hogy jelenleg Budapesten szakember hiány van. Egyes területeken heteket, akár hónapokat is várni kell minőségi szolgáltatást nyújtó és megfelelően árazott szakemberre. Kisebb karbantartási munkákra egyre
                 nehezebb gyors segítséget kapni, generál kivitelezési és épület-gépészeti munkáknál akár több hónapos várakozásra is

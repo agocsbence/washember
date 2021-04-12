@@ -44,7 +44,7 @@ function showForm() {
 
 window.onload = submitBtn.disabled = true;
 window.onload = (event) => {
-    console.log('page is fully loaded');
+    policyDisable();
   };
 
 function policyDisable() {

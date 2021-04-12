@@ -69,6 +69,7 @@ var Marquee = Class.create({
     });
 var submitBtn = document.getElementById("submitBtn");
 var policyCheck = document.getElementById("policyCheck");
+var viewMore = document.getElementById("viewMore");
 
 let bgImg1 = document.getElementById('img1'),
     content = document.getElementById('content'),
@@ -114,7 +115,7 @@ function showForm() {
 window.onload = submitBtn.disabled = true;
 window.onload = (event) => {
     policyDisable();
-  };
+};
 
 function policyDisable() {
     if (policyCheck.checked) {

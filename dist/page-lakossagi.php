@@ -20,6 +20,7 @@ get_header();
         <div class="text">
             <p>Ha elakadtál otthon, irodában, üzletben valami javításban, valami <u>elromlott, leromlott, koszos lett, kiömlött,</u> vagy <u>eldugult, leszakadt, szétesett,</u> keress minket, megnézzük, mit tehetünk.</p>
             <p>Nagy valószínűséggel meg tudjuk javítani, fel tudjuk újítani, ki tudjuk tisztítani, tudunk segíteni!</p>
+            <p><small><a href="">Adatvédelmi tájékoztató</a></small></p>
         </div>
     </section>
     <section id="form">
@@ -35,7 +36,7 @@ get_header();
         <p>Ha sürgős, <u>hívj</u>, és <u>repülünk</u></p>
         <p><a href="tel:<?php the_field('telefonszam', 'option'); ?>"><?php the_field('telefonszam', 'option'); ?></a></p>
         <div class="copyright">
-            <p><small>Oldalunk óriási fejlesztés előtt áll.</small></p>
+            <p><small>A weboldal nem tárol cookie-kat.</small></p>
             <p><small>2020 &copy; Golem Holding</small></p>
         </div>
     </section>

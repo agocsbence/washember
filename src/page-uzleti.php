@@ -21,7 +21,7 @@ get_header();
             <div class="overflow-scroll" style="max-height: 600px;">
                 <p><u>Üzletek, éttermek, irodák, társasházak</u> számára nyugodt, költséghatékony és tervezhető jövőt kínálunk, amennyiben hozzáértő, számlaképes és az elvégzett munkákra garanciát vállaló csapatunkkal dolgoznak együtt.</p>
 
-                <div class="mobile-only" id="viewMoreBtn" onlick="viewMore.classList.toggle('hidden');"><u>...</u></div>
+                <div class="mobile-only" id="viewMoreBtn" onclick="viewMore.classList.toggle('hidden');"><u>...</u></div>
                 
                 <div id="viewMore" class="hidden">
                     <p>Önök is tapasztalhatják, hogy jelenleg Budapesten szakember hiány van. Egyes területeken heteket, akár hónapokat is várni kell minőségi szolgáltatást nyújtó és megfelelően árazott szakemberre. Kisebb karbantartási munkákra egyre

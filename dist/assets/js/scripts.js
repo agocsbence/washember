@@ -111,6 +111,11 @@ function showForm() {
     thankYou.style.display = "none";
 }
 
+window.onload = submitBtn.disabled = true;
+window.onload = (event) => {
+    console.log('page is fully loaded');
+  };
+
 function policyDisable() {
     if (policyCheck.checked) {
         submitBtn.disabled = false;
@@ -118,4 +123,3 @@ function policyDisable() {
         submitBtn.disabled = true;
     }
 }
-window.onload = policyDisable();

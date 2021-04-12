@@ -1,3 +1,6 @@
+var submitBtn = document.getElementById("submitBtn");
+var policyCheck = document.getElementById("policyCheck");
+
 let bgImg1 = document.getElementById('img1'),
     content = document.getElementById('content'),
     form = document.getElementById('wpcf7-f11-o1'),
@@ -39,13 +42,11 @@ function showForm() {
     thankYou.style.display = "none";
 }
 
-function policyCheck() {
-    var submitBtn = document.getElementById("submitBtn");
-    var policyCheck = document.getElementById("policyCheck");
+function policyDisable() {
     if (policyCheck.checked) {
         submitBtn.disabled = false;
     } else {
         submitBtn.disabled = true;
     }
 }
-policyCheck();
+window.onload = policyDisable();

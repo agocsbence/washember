@@ -126,12 +126,18 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 4rem 0;
     .circle {
-        background: white;
         flex: 1;
         display: inline-block;
         border-radius: 50%;
         width: 45vw;
-        height: 45vw;
+        height: 50vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: $red;
+        background: $white;
     }
 }

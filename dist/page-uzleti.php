@@ -59,7 +59,7 @@ get_header();
     </section>
     <section id="contact">
         <p>Ha sürgős, <u>hívj</u>, és <u>repülünk</u></p>
-        <p><a href="tel:<?php the_field('telefonszam', 'option'); ?>"><?php the_field('telefonszam', 'option'); ?></a></p>
+        <p><a href="tel:<?php the_field('telefonszam_uzleti', 'option'); ?>"><?php the_field('telefonszam_uzleti', 'option'); ?></a></p>
         <div class="copyright">
             <p><small>A weboldal nem tárol cookie-kat.</small></p>
             <p><small>2020 &copy; Golem Holding</small></p>

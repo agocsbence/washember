@@ -10,7 +10,7 @@ if( function_exists('acf_add_options_page') ) {
 	
 	acf_add_options_page(array(
 		'page_title' 	=> 'Egyedi mezők',
-		'menu_title'	=> 'Washember',
+		'menu_title'	=> 'Washember adatok',
 		'menu_slug' 	=> 'washember-general-settings',
 		'capability'	=> 'edit_posts',
 		'redirect'		=> false

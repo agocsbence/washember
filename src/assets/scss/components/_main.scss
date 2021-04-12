@@ -127,6 +127,9 @@ main {
     justify-content: center;
     align-items: center;
     padding: 4rem 0;
+    @media screen and (max-width: $tablet) {
+        flex-direction: column;
+    }
     .circle {
         flex: 1;
         display: inline-block;
@@ -141,6 +144,10 @@ main {
         background: $white;
         text-transform: uppercase;
         margin: 1rem;
+        @media screen and (max-width: $tablet) {
+            width: 95vw;
+            height: 95vw;
+        }
     }
 }
 

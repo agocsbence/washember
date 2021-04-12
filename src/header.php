@@ -28,9 +28,9 @@
             <div class="marquee2">ha sürgős hívj <a href="tel:<?php the_field('telefonszam_uzleti', 'option'); ?>" target="_blank" rel="noopener noreferrer"><img src="<?php bloginfo('template_url') ?>/assets/img/phone.png" alt="phone icon"></a> és repülünk <a href="tel:<?php the_field('telefonszam_uzleti', 'option'); ?>"><?php the_field('telefonszam_uzleti', 'option'); ?></a></div>
             <div class="marquee3">ha sürgős hívj <a href="tel:<?php the_field('telefonszam_uzleti', 'option'); ?>" target="_blank" rel="noopener noreferrer"><img src="<?php bloginfo('template_url') ?>/assets/img/phone.png" alt="phone icon"></a> és repülünk <a href="tel:<?php the_field('telefonszam_uzleti', 'option'); ?>"><?php the_field('telefonszam_uzleti', 'option'); ?></a></div>         
         <? } else { ?>
-            <div class="marquee1">ha sürgős hívj <img src="<?php bloginfo('template_url') ?>/assets/img/phone.png" alt="phone icon"> és repülünk</div>
-            <div class="marquee2">ha sürgős hívj <img src="<?php bloginfo('template_url') ?>/assets/img/phone.png" alt="phone icon"> és repülünk</div>
-            <div class="marquee3">ha sürgős hívj <img src="<?php bloginfo('template_url') ?>/assets/img/phone.png" alt="phone icon"> és repülünk</div>
+            <div class="marquee1">ha sürgős hívj <a href=""><img src="<?php bloginfo('template_url') ?>/assets/img/phone.png" alt="phone icon"></a> és repülünk</div>
+            <div class="marquee2">ha sürgős hívj <a href=""><img src="<?php bloginfo('template_url') ?>/assets/img/phone.png" alt="phone icon"></a> és repülünk</div>
+            <div class="marquee3">ha sürgős hívj <a href=""><img src="<?php bloginfo('template_url') ?>/assets/img/phone.png" alt="phone icon"></a> és repülünk</div>
         <?php } ?>
     </div>
 </header>

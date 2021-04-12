@@ -201,3 +201,9 @@ main {
 .policy {
     margin-top: 4rem;
 }
+
+#viewMore {
+    @media screen and (min-width: $tablet) {
+        display: block !important;
+    }
+}

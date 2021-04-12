@@ -29,6 +29,7 @@ get_header();
             <div class="button" id="tyButton">Újat írok</div>
         </div>
         <?php echo do_shortcode('[contact-form-7 id="11" title="Üzenet"]'); ?>
+        <p><small>A munka felmérése megrendelés létrejötte esetén ingyenes, egyebekben kiszállási díjainkról tájékoztatást telefonos egyeztetés során adunk, melyet a kiszállásról szóló értesítő email-ben rögzítünk.</small></p>
     </section>
     <section id="contact">
         <p>Ha sürgős, <u>hívj</u>, és <u>repülünk</u></p>

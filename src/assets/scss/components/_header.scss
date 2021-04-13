@@ -10,14 +10,14 @@ header {
         padding-right: 0;
     }
     img, p, .marquee-header { align-self: center; justify-self: center; }
-    img.logo,
-    img.logo-mobile {
+    .logo,
+    .logo-mobile {
         grid-area: logo;
         justify-self: start;
         padding-right: 2rem;
         padding-left: 1.65rem;
     }
-    img.logo-mobile {
+    .logo-mobile {
         padding: 0;
         border-right: 2px solid $red;
         padding-left: 1rem;

@@ -15,8 +15,8 @@
 <body>
 
 <header class="bg--white grid grid--header">
-    <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/logo-desktop.png" alt="Washember" class="logo desktop-only"></a>
-    <a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo('template_url') ?>/assets/img/logo-mobile.png" alt="Washember" class="logo-mobile mobile-only"></a>
+    <a href="<?php echo get_home_url(); ?>" class="logo desktop-only"><img src="<?php bloginfo('template_url') ?>/assets/img/logo-desktop.png" alt="Washember"></a>
+    <a href="<?php echo get_home_url(); ?>" class="logo-mobile mobile-only"><img src="<?php bloginfo('template_url') ?>/assets/img/logo-mobile.png" alt="Washember"></a>
     <p><strong>washember</strong> <span class="desktop-only">|</span> javít a szitun <span class="desktop-only">|</span></p>
     <div class="marquee-header">
         <?php if ( is_page_template('page-lakossagi.php') ) { ?>

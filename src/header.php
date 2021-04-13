@@ -11,6 +11,16 @@
 	<?php wp_head(); ?>
 
     <title>Washember | javít a szitun</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_url') ?>/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('template_url') ?>/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_url') ?>/assets/img/favicon-16x16.png">
+    <link rel="manifest" href="<?php bloginfo('template_url') ?>/assets/img/site.webmanifest">
+    <link rel="mask-icon" href="<?php bloginfo('template_url') ?>/assets/img/safari-pinned-tab.svg" color="#df3e3e">
+    <link rel="shortcut icon" href="<?php bloginfo('template_url') ?>/assets/img/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="<?php bloginfo('template_url') ?>/assets/img/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
 

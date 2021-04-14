@@ -37,7 +37,7 @@ get_header();
         <p><a href="tel:<?php the_field('telefonszam_lakossagi', 'option'); ?>"><?php the_field('telefonszam_lakossagi', 'option'); ?></a></p>
         <div class="copyright">
             <p><small>A weboldal nem tárol cookie-kat.</small></p>
-            <p><small>2020 &copy; Golem Holding</small></p>
+            <p><small>2021 &copy; Golem Holding</small></p>
         </div>
     </section>
 </main>

@@ -125,15 +125,13 @@ main {
         color: $red !important;
         form {
             input, textarea {
-                color: $red;
+                color: $red !important;
                 &::placeholder {
-                    text-decoration: underline;
-                    color: $red;
-                    font-family: "RubikRegular";
+                    color: $red !important;
                 }
                 &[type="submit"] {
-                    background: $red;
-                    color: $white;
+                    background: $red !important;
+                    color: $white !important;
                 }
             }
         }

@@ -4,6 +4,10 @@ main {
     @media screen and (max-width: $tablet) {
         margin-bottom: 3rem;
     }
+    &#content-uzleti {
+        background: $white !important;
+        color: $red !important;
+    }
     #bgImages {
         position: absolute;
         top: 0;

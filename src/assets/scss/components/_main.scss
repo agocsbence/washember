@@ -4,10 +4,6 @@ main {
     @media screen and (max-width: $tablet) {
         margin-bottom: 3rem;
     }
-    &#content-uzleti {
-        background: $white !important;
-        color: $red !important;
-    }
     #bgImages {
         position: absolute;
         top: 0;
@@ -120,6 +116,24 @@ main {
                 }
                 p {
                     line-height: .6;
+                }
+            }
+        }
+    }
+    &#content-uzleti {
+        background: $white !important;
+        color: $red !important;
+        form {
+            input, textarea {
+                color: $red;
+                &::placeholder {
+                    text-decoration: underline;
+                    color: $red;
+                    font-family: "RubikRegular";
+                }
+                &[type="submit"] {
+                    background: $red;
+                    color: $white;
                 }
             }
         }

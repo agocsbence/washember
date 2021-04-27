@@ -39,7 +39,7 @@ get_header();
                     <p>Hívja a <u>Washembert!</u> Megbízható - Gyors - Precíz! Válassza Ön is a hosszútávú biztonságot!</p>
                 </div>
             </div>
-            <p class="policy"><small><a href="http://newsite.washember.hu/wp-content/uploads/2021/04/WE-web-discl-B2B-3.pdf" target="blank">Adatvédelmi tájékoztató</a></small></p>
+            <p class="policy"><small><a href="//washember.hu/wp-content/uploads/2021/04/WE-web-discl-B2B-3.pdf" target="blank">Adatvédelmi tájékoztató</a></small></p>
         </div>
     </section>
     <section id="form">
@@ -48,7 +48,7 @@ get_header();
             <p>Köszönjük az üzenetet, hamarosan jelentkezünk!</p>
             <div class="button" id="tyButton">Újat írok</div>
         </div>
-        <?php echo do_shortcode('[contact-form-7 id="11" title="Üzenet-uzleti"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="17" title="Üzenet - üzleti"]'); ?>
         <p><small>A munka felmérése megrendelés létrejötte esetén ingyenes, egyebekben kiszállási díjainkról tájékoztatást telefonos egyeztetés során adunk, melyet a kiszállásról szóló értesítő email-ben rögzítünk.</small></p>
     </section>
     <section id="contact">

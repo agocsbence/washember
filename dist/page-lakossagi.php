@@ -20,7 +20,7 @@ get_header();
         <div class="text">
             <p>Ha elakadt otthon valami javításban, valami <u>elromlott, leromlott, koszos lett, kiömlött,</u> vagy <u>eldugult, leszakadt, szétesett,</u> keressen minket, megnézzük, mit tehetünk!</p>
             <p>Nagy valószínűséggel meg tudjuk javítani, fel tudjuk újítani, ki tudjuk tisztítani, tudunk segíteni!</p>
-            <p><small><a href="http://newsite.washember.hu/wp-content/uploads/2021/04/WE-web-discl-lak-2.pdf" target="blank">Adatvédelmi tájékoztató</a></small></p>
+            <p><small><a href="//washember.hu/wp-content/uploads/2021/04/WE-web-discl-lak-2.pdf" target="blank">Adatvédelmi tájékoztató</a></small></p>
         </div>
     </section>
     <section id="form">

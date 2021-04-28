@@ -72,10 +72,11 @@ main {
             }
             .wpcf7-response-output { display: none !important; }
             form {
+                .wpcf7-form-control-wrap {margin-bottom: 2rem;}
+                .wpcf7-not-valid-tip {color: $white !important; background: $black !important; font-size: .6rem !important;}
                 input, textarea {
                     width: 100%;
                     margin: 0;
-                    margin-bottom: 2rem;
                     border: none;
                     font-size: $font-size;
                     background: transparent;
